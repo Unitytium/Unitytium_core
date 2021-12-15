@@ -85,7 +85,7 @@ pub struct  Chain {
          return false;
      }
 
-     pub fn add_transaction(&mut self, _transaction:Transaction)->bool{
+     pub fn add_transaction(&mut self, _transaction: Transaction) ->bool{
          &mut self.transactions_id.add(1);
          self.transactions.push(_transaction);
          return true;
